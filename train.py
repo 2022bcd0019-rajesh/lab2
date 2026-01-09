@@ -9,8 +9,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error, r2_score
 
 
-NAME = "SIBYKANNA"
-ROLL_NO = "2022BCD0039"
+NAME = "raajeshwar"
+ROLL_NO = "2022BCD0019"
 
 
 data = pd.read_csv("dataset/winequality-red.csv", sep=";")
@@ -57,6 +57,7 @@ results = {
 
 with open("output/results/results.json", "w") as f:
     json.dump(results, f, indent=4)
+
 
 
 
